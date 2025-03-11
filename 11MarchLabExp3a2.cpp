@@ -1,4 +1,4 @@
-//To delete the details of a student using a member function of student class
+//To update the details of a student using a member function of student class
 #include<iostream>
 using namespace std;
 class student {
