@@ -45,7 +45,7 @@ public:~Student(){ //We declared destructor of class Student as public because w
 }
 }; 
 class Course {
-    private: int ccredits,ccid; string Coursename,cend,cstr; //data members-> Variables that are a part of a constructor //we declared Member Variables or Attributes of Class Student like:ccredits,ccid; string Coursename,cend,cstr;as private member to protect our data from unauthorized accesss.
+    private: int ccredits,ccid; string Coursename,cend,cstr; //data members-> Variables that are a part of a constructor //we declared Member Variables or Attributes of Class Course like:ccredits,ccid; string Coursename,cend,cstr;as private member to protect our data from unauthorized accesss.
     public: Course(string cname, int cid,int credits, string ced, string cst){ //We declared constructor of class Student as public because we cannot assign any other access specifier to them.
         Coursename=cname;/*In OOPS Programming we prioritize data over functions and provide layer to security
         to member variables to protect information stored inside member variables is not
